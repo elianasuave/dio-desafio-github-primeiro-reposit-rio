@@ -1,0 +1,58 @@
+Comandos git:
+git clone linkCopiadoDoRepositorio // cria uma pasta clone do seu repositorio
+git pull // baixar oq tiver na branch
+git status // mostra as alterações feitas
+git add . // adiciona suas modificações
+git commit -m "Descrição do q foi feito" // dps de adicionar as modificações salva elas com descrição
+git push origin nomeDaBranch // upa oque foi commitado para seu git
+git checkout nomeBranch // navegar entre as branchs
+git checkout -b //cria uma branch
+git checkout - //volta para branch anterior
+git branch    //mostra as branchs criadas
+git branch -D nomeBranch // deleta a branch escolhida
+git merge nomeBranch // juntar as informações das branchs
+pwd //mostra pasta atual 
+ls // mostra o conteúdo de uma pasta (arquivo e outras pastas) 
+cd // muda de pasta
+cd.. //volta uma pasta
+mkdir // cria uma pasta
+rmdir // remove uma pasta
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Estes são comandos Git comuns usados em várias situações:
+
+iniciar uma área de trabalho (veja também: tutorial de ajuda do git)
+   clone // Clone um repositório em um novo diretório
+   init //Crie um repositório Git vazio ou reinicialize um existente
+
+trabalhar na mudança atual (ver também: git help todos os dias)
+   add // Adiciona o conteúdo do arquivo ao índice
+   mv //  Mover ou renomear um arquivo, diretório ou link simbólico
+   restore //  Restaurar arquivos da árvore de trabalho
+   rm //  Remove os arquivos da árvore de trabalho e do índice
+   sparse-checkout //  Inicializa e modifica o sparse-checkout
+
+examine o histórico e o estado (veja também: revisões do git help)
+   bisect //  Use a pesquisa binária para encontrar o commit que introduziu um bug
+   diff // Mostra mudanças entre commits, commit e árvore de trabalho, etc
+   grep //  Imprimir linhas que combinam com um padrão
+   log //  Mostrar logs de confirmação
+   show //  Mostra vários tipos de objetos
+   status //  Mostra o status da árvore de trabalho
+
+crescer, marcar e ajustar sua história comum
+   branch //  Listar, criar ou excluir branches
+   commit // mudanças de registro para o repositório
+   merge //  Junte dois ou mais históricos de desenvolvimento juntos
+   rrebase // Reapply commits em cima de outra base tip
+   reset //  Redefinir HEAD atual para o estado especificado
+   switch // Mudar ramos
+   tag //  Criar, listar, excluir ou verificar um objeto de tag assinado com GPG
+
+colaborar (ver também: fluxos de trabalho git help)
+   bfetch // objetos de download e referências de outro repositório
+   pull //  buscar de e integrar com outro repositório ou um branch local
+   push // Atualizar referências remotas junto com objetos associados
